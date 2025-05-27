@@ -6,11 +6,11 @@
    ```bash
    git clone https://github.com/SynytskaK/vite-project.git
    cd vite-project
-
+```
 2. **Install dependencies**
  ```bash
     npm install
-
+```
 3. **Run the development server**
  ```bash
     npm run dev
