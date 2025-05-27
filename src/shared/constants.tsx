@@ -72,3 +72,27 @@ export const payments: Payment[] = [
     spending: 12300,
   },
 ]
+
+export const fields = [
+  {
+    name: "username",
+    label: "Username",
+    placeholder: "Please provide your username...",
+    description: "This is your public display name.",
+    type: "text",
+  },
+  {
+    name: "email",
+    label: "Email",
+    placeholder: "Please provide your email...",
+    description: "We'll never share your email.",
+    type: "email",
+  },
+  {
+    name: "age",
+    label: "Age",
+    placeholder: "16",
+    description: "Your current age.",
+    type: "number",
+  },
+] as const

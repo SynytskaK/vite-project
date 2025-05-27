@@ -12,7 +12,7 @@ interface MetricCardProps {
 
 export const MetricCard = ({ title, value, icon, description, additionalBlock }: MetricCardProps) => {
     return (
-        <Card className="w-full">
+        <Card className="w-full border-blue-300">
             <CardHeader className="flex flex-col items-start gap-2 pb-2">
                 {icon}
                 <CardTitle className="text-base font-medium text-gray-500">{title}</CardTitle>

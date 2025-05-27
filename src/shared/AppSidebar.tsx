@@ -51,8 +51,8 @@ export const AppSidebar = () => {
                                     <SidebarMenuItem key={item.title}>
                                         <SidebarMenuButton asChild
                                             className={` ${isActive
-                                                ? "bg-primary text-white hover:bg-primary hover:text-white"
-                                                : "hover:bg-primary text-muted-foreground hover:text-white"
+                                                ? "bg-blue-300 text-white hover:bg-blue-300 hover:text-white"
+                                                : "hover:bg-blue-300 text-muted-foreground hover:text-white"
                                                 }`}>
                                             <Link to={item.url}>
                                                 <item.icon />

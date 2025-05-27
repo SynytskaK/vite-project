@@ -27,12 +27,15 @@ const chartConfig = {
 
 export const Overview = () => {
     return (
-        <div className="flex-1 gap-4 p-4 flex-col flex">
-            <div className="gap-4 flex-row flex">
-                <MetricCard value={`1000 units`} title='Sales' icon={<ShoppingCart />} description='Since last month' />
-                <MetricCard value={`$10MM usd`} title='Revenue' icon={<Coins />} />
+        <div className="flex-1 gap-6 flex-col flex">
+            <h1 className="text-2xl font-semibold">Overview</h1>
+            <div className="gap-4 p-4 flex-col flex">
+                <div className="gap-4 flex-row flex">
+                    <MetricCard value={`1000 units`} title='Sales' icon={<ShoppingCart />} description='Since last month' />
+                    <MetricCard value={`$10MM usd`} title='Revenue' icon={<Coins />} />
+                </div>
+                <MetricCard value='$30MM usd' title='Total Sales' icon={<ChartArea />} description='Since black friday 2025' additionalBlock={<AdditionalComponent />} />
             </div>
-            <MetricCard value='$30MM usd' title='Total Sales' icon={<ChartArea />} description='Since black friday 2025' additionalBlock={<AdditionalComponent />} />
         </div>
     );
 }
