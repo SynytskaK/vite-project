@@ -1,5 +1,5 @@
 
-import type { Payment } from "./types";
+import type { Payment } from "./DataTable/types";
 
 const formatted = (phone: string) => phone.replace(/^\+(\d{3})(\d{3})(\d{2})(\d{2})$/, '($1) $2-$3-$4');
 

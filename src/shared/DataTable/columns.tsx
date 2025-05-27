@@ -1,5 +1,5 @@
 import type { ColumnDef } from "@tanstack/react-table";
-import type { Payment } from "../types";
+import type { Payment } from "./types";
 import { ArrowUpDown } from "lucide-react"
 import { MoreHorizontal } from "lucide-react"
  
