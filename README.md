@@ -36,18 +36,18 @@
  ```
 
 ## 🧠 Implementation Details
-# ✅ Routing
+### ✅ Routing
 
 Routing is handled through React-router. Each file in the pages/ folder represents a primary route or screen.
 
-# ✅ State Management
+### ✅ State Management
 Form state is managed using React Hook Form with Zod validation via zodResolver.
 
 UI-level state (such as theme toggling or checkbox values) uses the standard useState hook.
 
 Theme context is provided via a shadecn library ThemeProvider.
 
-# ✅ Components
+### ✅ Components
 Reusable UI elements are placed in shared folder.
 
 Field configurations and constants live in shared/constants.
