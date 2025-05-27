@@ -12,14 +12,16 @@
     npm install
    ```
 3. **Run the development server**
-  ```bash
+    ```bash
     npm run dev
-  ```
+    ```
 4. **Open in your browser**
- ```bash
+  ```bash
     Navigate to http://localhost:5173/
+   ```
 
 ## 📁 Project Structure
+```bash
 .
 ├── pages/          # Main app pages (used for routing)
 │   ├── Overview.tsx   # Home page
@@ -31,3 +33,4 @@
 │   └── constants/  # Field definitions, config values, etc.
 │
 ├── App.tsx #entry point
+ ```
