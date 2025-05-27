@@ -8,13 +8,16 @@
    cd vite-project
 
 2. **Install dependencies**
-npm install
+ ```bash
+    npm install
 
 3. **Run the development server**
-npm run dev
+ ```bash
+    npm run dev
 
 4. **Open in your browser**
-Navigate to http://localhost:5173/
+ ```bash
+    Navigate to http://localhost:5173/
 
 ## 📁 Project Structure
 .
