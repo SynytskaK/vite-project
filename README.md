@@ -6,15 +6,15 @@
    ```bash
    git clone https://github.com/SynytskaK/vite-project.git
    cd vite-project
-```
+   ```
 2. **Install dependencies**
- ```bash
+   ```bash
     npm install
-```
+   ```
 3. **Run the development server**
- ```bash
+  ```bash
     npm run dev
-
+  ```
 4. **Open in your browser**
  ```bash
     Navigate to http://localhost:5173/
